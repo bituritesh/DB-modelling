@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-04T12:22:37.307Z" agent="5.0 (Windows)" etag="4ql8dS-XVUBxBb3OU5iO" version="14.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-04T14:39:38.411Z" agent="5.0 (Windows)" etag="i4HmDVs9XepelgrnPwyW" version="14.6.9" type="github">
   <diagram id="tR20AryKdcLz3GlmEhEK" name="Page-1">
     <mxGraphModel dx="975" dy="587" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -11,10 +11,10 @@
           <mxGeometry y="30" width="160" height="90" as="geometry" />
         </mxCell>
         <mxCell id="bP90Zo4gkzNuYZzZ2SoU-3" value="flight" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
-          <mxGeometry x="530" y="215" width="210" height="135" as="geometry" />
+          <mxGeometry x="530" y="215" width="210" height="145" as="geometry" />
         </mxCell>
-        <mxCell id="bP90Zo4gkzNuYZzZ2SoU-4" value="number(string)&#xa;departure(DATETIME)&#xa;arrival(DATETIME)&#xa;durationInMinutes(integer)&#xa;distanceInMiles(integer)&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="bP90Zo4gkzNuYZzZ2SoU-3">
-          <mxGeometry y="30" width="210" height="105" as="geometry" />
+        <mxCell id="bP90Zo4gkzNuYZzZ2SoU-4" value="number(string)&#xa;departure(DATETIME)&#xa;arrival(DATETIME)&#xa;durationInMinutes(integer)&#xa;distanceInMiles(integer)&#xa;departureAirportID(integer)&#xa;arrivalAirportID(integer)&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="bP90Zo4gkzNuYZzZ2SoU-3">
+          <mxGeometry y="30" width="210" height="115" as="geometry" />
         </mxCell>
         <mxCell id="bP90Zo4gkzNuYZzZ2SoU-10" value="airport" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
           <mxGeometry x="265" y="370" width="160" height="120" as="geometry" />
